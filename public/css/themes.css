@@ -1,0 +1,247 @@
+/*
+ *  Document   : themes.css
+ *  Author     : pixelcave
+ *  Description: The themes stylesheet of the template. The classes can
+ *  be used to alter the text or the background of an element individually
+ *
+ */
+
+/*
+=================================================================
+THEME DEFAULT
+=================================================================
+*/
+
+.themed-color-default {
+    color: #5ccdde !important;
+}
+
+.themed-background-default {
+    background-color: #5ccdde !important;
+}
+
+.themed-color-dark-default {
+    color: #454e59 !important;
+}
+
+.themed-background-dark-default {
+    background-color: #454e59 !important;
+}
+
+/*
+=================================================================
+THEME SOCIAL
+=================================================================
+*/
+
+.themed-color-social {
+    color: #627aad !important;
+}
+
+.themed-background-social {
+    background-color: #627aad !important;
+}
+
+.themed-color-dark-social {
+    color: #333333 !important;
+}
+
+.themed-background-dark-social {
+    background-color: #333333 !important;
+}
+
+/*
+=================================================================
+THEME FLAT
+=================================================================
+*/
+
+.themed-color-flat {
+    color: #45a7b9 !important;
+}
+
+.themed-background-flat {
+    background-color: #45a7b9 !important;
+}
+
+.themed-color-dark-flat {
+    color: #374249 !important;
+}
+
+.themed-background-dark-flat {
+    background-color: #374249 !important;
+}
+
+/*
+=================================================================
+THEME AMETHYST
+=================================================================
+*/
+
+.themed-color-amethyst {
+    color: #7c62ad !important;
+}
+
+.themed-background-amethyst {
+    background-color: #7c62ad !important;
+}
+
+.themed-color-dark-amethyst {
+    color: #353a4d !important;
+}
+
+.themed-background-dark-amethyst {
+    background-color: #353a4d !important;
+}
+
+/*
+=================================================================
+THEME CREME
+=================================================================
+*/
+
+.themed-color-creme {
+    color: #b09573 !important;
+}
+
+.themed-background-creme {
+    background-color: #b09573 !important;
+}
+
+.themed-color-dark-creme {
+    color: #49443d !important;
+}
+
+.themed-background-dark-creme {
+    background-color: #49443d !important;
+}
+
+/*
+=================================================================
+THEME PASSION
+=================================================================
+*/
+
+.themed-color-passion {
+    color: #de4b39 !important;
+}
+
+.themed-background-passion {
+    background-color: #de4b39 !important;
+}
+
+.themed-color-dark-passion {
+    color: #252d2f !important;
+}
+
+.themed-background-dark-passion {
+    background-color: #252d2f !important;
+}
+
+/*
+=================================================================
+THEME CLASSY
+=================================================================
+*/
+
+.themed-color-classy {
+    color: #777777 !important;
+}
+
+.themed-background-classy {
+    background-color: #777777 !important;
+}
+
+.themed-color-dark-classy {
+    color: #353535 !important;
+}
+
+.themed-background-dark-classy {
+    background-color: #353535 !important;
+}
+
+
+/*
+**** JQUERY DATEPICKER UI DESIGN
+*/
+
+div#ui-datepicker-div {
+    background: #434c6a;
+}
+
+.ui-datepicker-title {
+}
+
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
+    background: #07b8b1;
+    color: #fff;
+}
+
+a.ui-datepicker-prev.ui-corner-all, .ui-datepicker-next.ui-corner-all {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+span.ui-icon.ui-icon-circle-triangle-w {
+    color: #fff;
+}
+
+.ui-datepicker td {
+    padding: 0 !important;
+    border: 1px solid #777777ad !important;
+}
+
+.ui-datepicker table thead {
+    background: #242d4d;
+    color: #fff;
+}
+
+.ui-widget.ui-widget-content, .ui-widget-header {
+    border: 1px solid #07b8b1 !important;
+}
+
+a.ui-state-default.ui-state-highlight.ui-state-hover {
+    background: #07b8b1 !important;
+    border: 1px solid #07b8b1 !important;
+    color: #fff;
+    text-align: center;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    text-align: center;
+    background: rgb(67, 76, 106) !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.ui-state-default {
+    font-weight: bold !important;
+}
+
+.ui-datepicker-prev span,
+.ui-datepicker-next span {
+    background-image: none !important;
+}
+
+.ui-datepicker-prev:before,
+.ui-datepicker-next:before {
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    font-weight: normal;
+    align-items: center;
+    justify-content: center;
+}
+
+.ui-datepicker-prev:before {
+    content: "\f053";
+}
+
+.ui-datepicker-next:before {
+    content: "\f054";
+}
